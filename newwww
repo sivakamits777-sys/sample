@@ -1,0 +1,10 @@
+return [
+  {
+    json: {
+      timestamp: new Date().toISOString(),
+      source: "GitHub",
+      event_type: "pull_request",
+      details: "PR #42 opened: feature/add-subscription-metrics-report"
+    }
+  }
+];
