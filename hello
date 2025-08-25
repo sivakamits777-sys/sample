@@ -1,0 +1,9 @@
+# Add a dummy doc file or update README
+echo "Updated documentation for testing commit flow." > doc_test.txt
+git add doc_test.txt
+
+# Create a commit with a descriptive message
+git commit -m "docs: add placeholder documentation update for commit testing"
+
+# Push to your repo
+git push origin main
